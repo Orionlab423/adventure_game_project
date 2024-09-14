@@ -50,7 +50,7 @@ def fight():
     while True:
         fight = input("Would you like to (1) fight or (2) run away?\n")
         if fight == '1':
-            print_pause(f"The {enemy} moves towards you to attack")
+            print_pause(f"The {enemy} moves towards you to attack.")
             print_pause(f"You grab new {weapons}")
             print_pause(f"The shiny {weapons} of Wudang in your"
                         "hand as you make an attack.")
@@ -73,7 +73,7 @@ def fight():
 def cave():
     print_pause("This is an empty cave.")
     print_pause("You have been to this place before,"
-                "and got the weapons from the wooden crates")
+                "and got the weapons from the wooden crates.")
     print_pause(f"You have found magical {weapons} located inside the crate.")
     print_pause("Walk back out to the field.")
     field()
